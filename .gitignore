@@ -21,3 +21,11 @@
 npm-debug.log*
 yarn-debug.log*
 yarn-error.log*
+.idea/deployment.xml
+.idea/encodings.xml
+.idea/.gitignore
+.idea/modules.xml
+.idea/php.xml
+.idea/task-tracker.iml
+.idea/vcs.xml
+.idea/inspectionProfiles/Project_Default.xml

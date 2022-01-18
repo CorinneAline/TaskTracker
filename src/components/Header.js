@@ -1,17 +1,21 @@
-import React from 'react';
 import PropTypes from 'prop-types'
 import AddButton from './AddButton';
+import { useLocation } from 'react-router-dom';
 
 const Header = ({ title, onAdd, showAdd }) => {
+    const location = useLocation()
+
     return (
         <header>
             <div className='row justify-content-md-between'>
                 <div className="col-md-auto">
                     <h1 style={ headingStyles }>{ title }</h1>
                 </div>
-                <div className="col-md-auto pt-3">
+                {
+                location.pathname === '/' && (<div className="col-md-auto pt-3">
                     <AddButton onAdd={onAdd} showAdd={showAdd} />
-                </div>
+                </div>)
+                }
             </div>
         </header>
     )

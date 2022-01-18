@@ -1,0 +1,16 @@
+{
+  "tasks": [
+    {
+      "text": "One thing a day",
+      "day": "Tomorrow",
+      "reminder": true,
+      "id": 3
+    },
+    {
+      "text": "Exemple de tâche",
+      "day": "19/01/2022",
+      "reminder": false,
+      "id": 4
+    }
+  ]
+}
